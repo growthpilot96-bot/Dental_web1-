@@ -62,7 +62,7 @@ export const DoctorProfile: React.FC<DoctorProfileProps> = ({ onBookClick }) => 
                   {DOCTOR_INFO.specialisation}
                 </span>
                 <span className="px-3 py-1 rounded-full text-xs font-semibold text-brand-slate bg-brand-ivory border border-brand-border">
-                  12+ Years Clinical Mastery
+                  11+ Years Clinical Experience
                 </span>
               </div>
 
@@ -70,7 +70,7 @@ export const DoctorProfile: React.FC<DoctorProfileProps> = ({ onBookClick }) => 
                 {DOCTOR_INFO.name}
               </h3>
               <p className="text-sm font-medium text-brand-teal-700 mb-6">
-                {DOCTOR_INFO.title}
+                {DOCTOR_INFO.title} • {DOCTOR_INFO.qualifications}
               </p>
 
               {/* Bio Statement */}
@@ -82,6 +82,22 @@ export const DoctorProfile: React.FC<DoctorProfileProps> = ({ onBookClick }) => 
               <blockquote className="border-l-4 border-brand-teal-600 pl-4 py-2 my-2 bg-brand-teal-50/50 rounded-r-xl italic text-brand-charcoal text-xs sm:text-sm leading-relaxed mb-6">
                 {DOCTOR_INFO.quote}
               </blockquote>
+
+              {/* Special Clinical Interests */}
+              <div className="mb-6">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-brand-dark mb-3 flex items-center">
+                  <Award className="w-4 h-4 mr-2 text-brand-teal-700" />
+                  Special Clinical Interests
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                  {DOCTOR_INFO.specialInterests.map((interest, i) => (
+                    <div key={i} className="flex items-start space-x-2 text-xs text-brand-slate font-medium">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-brand-teal-600 shrink-0 mt-0.5" />
+                      <span>{interest}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
 
               {/* Qualifications / Credentials */}
               <div className="mb-8">
@@ -105,10 +121,10 @@ export const DoctorProfile: React.FC<DoctorProfileProps> = ({ onBookClick }) => 
                   onClick={onBookClick}
                   className="px-6 py-3 rounded-full text-sm font-semibold text-white bg-brand-teal-700 hover:bg-brand-teal-800 shadow-sm hover:shadow-card transition-all duration-200"
                 >
-                  Consult Dr. Ananya
+                  Consult Dr. Arjun
                 </button>
                 <a
-                  href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Dr. Ananya, I would like to schedule a dental consultation.")}`}
+                  href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Dr. Arjun, I would like to schedule a dental consultation at Nivora Dental Studio.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 rounded-full text-sm font-semibold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 flex items-center space-x-2 transition-colors"

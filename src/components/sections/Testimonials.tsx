@@ -28,7 +28,7 @@ export const Testimonials: React.FC = () => {
             <span className="text-brand-teal-700 italic font-normal">Trusted For Excellence</span>
           </h2>
           <p className="text-base sm:text-lg text-brand-slate mt-4">
-            Hear from people who transformed their oral health and smile confidence at Lumière Dental Studio.
+            Hear from people who transformed their oral health and smile confidence at Nivora Dental Studio.
           </p>
         </div>
 

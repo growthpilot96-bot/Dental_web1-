@@ -61,7 +61,7 @@ export const App: React.FC = () => {
         {/* Featured Signature Treatment (Smile Makeover) */}
         <FeaturedTreatment onBookClick={() => scrollToBooking('Smile Makeover')} />
 
-        {/* Doctor Profile (Dr. Ananya Rao) */}
+        {/* Doctor Profile (Dr. Arjun Devika) */}
         <DoctorProfile onBookClick={() => scrollToBooking()} />
 
         {/* Why Choose Us (6 Benefit Pillars) */}

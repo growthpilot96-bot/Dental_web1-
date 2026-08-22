@@ -145,8 +145,8 @@ export const BeforeAfter: React.FC = () => {
                   <span className="font-bold text-brand-dark">{activeCase.duration}</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-brand-muted">Lead Surgeon:</span>
-                  <span className="font-bold text-brand-dark">Dr. Ananya Rao</span>
+                  <span className="text-brand-muted">Lead Dentist:</span>
+                  <span className="font-bold text-brand-dark">Dr. Arjun Devika</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-brand-muted">Anesthesia:</span>

@@ -408,7 +408,7 @@ export const BookingForm: React.FC<BookingFormProps> = ({ initialTreatment }) =>
                 Your appointment request is ready!
               </h3>
               <p className="text-brand-slate text-sm max-w-md mx-auto mb-6">
-                Continue to WhatsApp to send your request directly to Dr. Ananya Rao's clinical desk for prompt confirmation.
+                Continue to WhatsApp to send your request directly to Dr. Arjun Devika's clinical desk for prompt confirmation.
               </p>
 
               {/* Preview of the formatted payload */}

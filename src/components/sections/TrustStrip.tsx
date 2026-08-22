@@ -5,28 +5,28 @@ export const TrustStrip: React.FC = () => {
   const trustItems = [
     {
       icon: Award,
-      title: '12+ Years Experience',
-      desc: 'Expert clinical mastery in restorative & cosmetic dentistry',
+      title: '11+ Years Experience',
+      desc: 'Expert clinical leadership in restorative & endodontic care',
     },
     {
-      icon: Cpu,
-      title: 'Advanced 3D Tech',
-      desc: 'Low-radiation intraoral scans & digital smile simulations',
-    },
-    {
-      icon: Heart,
-      title: 'Patient-First Approach',
-      desc: 'Gentle, unhurried treatment designed around your comfort',
+      icon: Users,
+      title: '4,000+ Patients',
+      desc: 'Trusted by families in Kunjibettu and across Udupi',
     },
     {
       icon: ShieldCheck,
+      title: '4.9 ★ Google Rating',
+      desc: '286+ positive verified patient testimonials',
+    },
+    {
+      icon: Cpu,
       title: 'Class-B Sterilisation',
       desc: 'Hospital-grade autoclaves & 100% sealed surgical packs',
     },
     {
-      icon: Users,
-      title: '5,000+ Happy Patients',
-      desc: 'Trusted by families and professionals across Karnataka',
+      icon: Heart,
+      title: 'Patient-First Care',
+      desc: 'Gentle, unhurried treatment designed around your comfort',
     },
   ];
 

@@ -23,14 +23,14 @@ export const WhyChooseUs: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-teal-50 border border-brand-teal-100 text-brand-teal-800 text-xs font-semibold uppercase tracking-wider mb-4">
             <Sparkles className="w-3.5 h-3.5 text-brand-teal-600" />
-            <span>The Lumière Difference</span>
+            <span>The Nivora Difference</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
             Why Patients Choose <br />
-            <span className="text-brand-teal-700 italic font-normal">Lumière Dental Studio</span>
+            <span className="text-brand-teal-700 italic font-normal">Nivora Dental Studio</span>
           </h2>
           <p className="text-base sm:text-lg text-brand-slate mt-4 leading-relaxed">
-            We hold ourselves to rigorous clinical standards, transparent ethics, and genuine patient empathy at every touchpoint.
+            We combine careful diagnosis, modern treatment techniques and clear communication to put your comfort and oral health first.
           </p>
         </div>
 

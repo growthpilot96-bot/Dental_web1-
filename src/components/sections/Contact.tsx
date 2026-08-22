@@ -17,7 +17,7 @@ export const Contact: React.FC = () => {
             Location & <span className="text-brand-teal-700 italic font-normal">Contact Information</span>
           </h2>
           <p className="text-base sm:text-lg text-brand-slate mt-4">
-            Conveniently situated in Manipal with reserved patient parking and wheelchair-friendly access.
+            Conveniently situated at Aster Square in Kunjibettu, Udupi with patient-friendly access.
           </p>
         </div>
 
@@ -35,7 +35,7 @@ export const Contact: React.FC = () => {
               <div>
                 <h4 className="font-serif text-lg font-bold text-brand-dark mb-1">Our Clinic Studio</h4>
                 <p className="text-sm text-brand-slate leading-relaxed">
-                  {CLINIC_INFO.name}<br />
+                  <strong>{CLINIC_INFO.name}</strong><br />
                   {CLINIC_INFO.address.line1}<br />
                   {CLINIC_INFO.address.line2}<br />
                   {CLINIC_INFO.address.country}
@@ -58,18 +58,21 @@ export const Contact: React.FC = () => {
                 <Phone className="w-6 h-6 text-brand-gold-200" />
               </div>
               <div>
-                <h4 className="font-serif text-lg font-bold text-brand-dark mb-1">Direct Communication</h4>
-                <p className="text-sm text-brand-slate mb-2">
-                  Call: <a href={`tel:${CLINIC_INFO.phoneRaw}`} className="font-semibold text-brand-dark hover:text-brand-teal-700">{CLINIC_INFO.phone}</a>
+                <h4 className="font-serif text-lg font-bold text-brand-dark mb-1">Direct Contact</h4>
+                <p className="text-sm text-brand-slate mb-1">
+                  Phone: <a href={`tel:${CLINIC_INFO.phoneRaw}`} className="font-semibold text-brand-dark hover:text-brand-teal-700">{CLINIC_INFO.phone}</a>
                 </p>
-                <p className="text-sm text-brand-slate">
+                <p className="text-sm text-brand-slate mb-1">
                   Email: <a href={`mailto:${CLINIC_INFO.email}`} className="font-semibold text-brand-dark hover:text-brand-teal-700">{CLINIC_INFO.email}</a>
                 </p>
+                <p className="text-sm text-brand-slate mb-2">
+                  Instagram: <span className="font-semibold text-brand-teal-700">{CLINIC_INFO.instagram}</span>
+                </p>
                 <a
-                  href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Lumière Dental Studio, I would like to make an enquiry.")}`}
+                  href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Nivora Dental Studio, I would like to make an enquiry.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-xs font-bold text-emerald-700 hover:text-emerald-900 mt-3"
+                  className="inline-flex items-center text-xs font-bold text-emerald-700 hover:text-emerald-900 mt-1"
                 >
                   <MessageSquare className="w-3.5 h-3.5 mr-1" />
                   <span>Chat on WhatsApp ({CLINIC_INFO.whatsAppDisplay})</span>
@@ -82,11 +85,21 @@ export const Contact: React.FC = () => {
               <div className="w-12 h-12 rounded-2xl bg-brand-teal-700 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <Clock className="w-6 h-6 text-brand-gold-200" />
               </div>
-              <div>
-                <h4 className="font-serif text-lg font-bold text-brand-dark mb-1">Consultation Hours</h4>
-                <div className="text-sm text-brand-slate space-y-1">
-                  <p className="font-medium text-brand-dark">{CLINIC_INFO.openingHours.weekdays}</p>
-                  <p className="text-xs text-brand-muted">{CLINIC_INFO.openingHours.sunday}</p>
+              <div className="w-full">
+                <h4 className="font-serif text-lg font-bold text-brand-dark mb-2">Opening Hours</h4>
+                <div className="text-xs text-brand-slate space-y-1.5">
+                  <div className="flex justify-between border-b border-brand-border/50 pb-1">
+                    <span className="font-medium text-brand-dark">Mon – Fri</span>
+                    <span>9:00 AM – 6:30 PM</span>
+                  </div>
+                  <div className="flex justify-between border-b border-brand-border/50 pb-1">
+                    <span className="font-medium text-brand-dark">Saturday</span>
+                    <span>9:00 AM – 4:00 PM</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-medium text-brand-dark">Sunday</span>
+                    <span className="text-red-500 font-semibold">Closed</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -103,13 +116,13 @@ export const Contact: React.FC = () => {
               <div className="relative z-10">
                 <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white text-brand-dark text-xs font-bold shadow-sm mb-4">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-                  <span>Interactive Map Preview</span>
+                  <span>Interactive Studio Location</span>
                 </div>
                 <h3 className="font-serif text-2xl font-bold text-brand-dark">
-                  Lumière Dental Studio, Manipal
+                  Nivora Dental Studio, Udupi
                 </h3>
                 <p className="text-xs sm:text-sm text-brand-slate mt-1 max-w-md">
-                  12 Ocean View Road, Manipal, Karnataka 576104
+                  2nd Floor, Aster Square, Coastal Avenue, Kunjibettu, Udupi 576102
                 </p>
               </div>
 
@@ -119,14 +132,14 @@ export const Contact: React.FC = () => {
                   <MapPin className="w-8 h-8 text-brand-gold-200" />
                 </div>
                 <span className="inline-block mt-3 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-sm text-xs font-bold text-brand-dark shadow-sm border border-brand-border">
-                  Ocean View Road • Coastal Manipal
+                  Aster Square • Kunjibettu, Udupi
                 </span>
               </div>
 
               {/* Bottom Actions on Map */}
               <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-brand-border/70">
                 <div className="text-xs text-brand-slate text-center sm:text-left">
-                  <span>Valet & reserved parking available</span>
+                  <span>Reserved parking & elevator available</span>
                 </div>
                 <a
                   href={CLINIC_INFO.googleMapsQuery}

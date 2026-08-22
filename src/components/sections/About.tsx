@@ -38,10 +38,10 @@ export const About: React.FC<AboutProps> = ({ onBookClick }) => {
             <span>Our Philosophy</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-dark tracking-tight leading-tight">
-            Modern Dentistry. <span className="text-brand-teal-700 italic font-normal">Human Care.</span>
+            Modern Dentistry. <span className="text-brand-teal-700 italic font-normal">Thoughtful Care.</span>
           </h2>
           <p className="text-base sm:text-lg text-brand-slate mt-4">
-            We believe that visiting the dentist should feel calming, dignified, and empowering. At Lumière, clinical precision meets heartfelt hospitality.
+            We believe that good dentistry begins with listening. At Nivora Dental Studio, modern clinical techniques meet gentle, patient-focused care.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export const About: React.FC<AboutProps> = ({ onBookClick }) => {
               <div className="rounded-3xl overflow-hidden shadow-card border-4 border-white aspect-[4/3] bg-brand-ivory">
                 <img
                   src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=900&auto=format&fit=crop"
-                  alt="Modern Dental Operatory at Lumière Dental Studio"
+                  alt="Modern Dental Operatory at Nivora Dental Studio"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -74,8 +74,8 @@ export const About: React.FC<AboutProps> = ({ onBookClick }) => {
 
               {/* Floating Experience Badge */}
               <div className="absolute -top-6 -left-4 sm:-left-6 bg-brand-teal-800 text-white rounded-2xl p-4 shadow-xl max-w-[190px]">
-                <p className="text-2xl font-serif font-bold text-brand-gold-200">12+ Years</p>
-                <p className="text-xs text-brand-teal-100 font-medium leading-tight mt-0.5">Of dedicated clinical mastery in Manipal</p>
+                <p className="text-2xl font-serif font-bold text-brand-gold-200">11+ Years</p>
+                <p className="text-xs text-brand-teal-100 font-medium leading-tight mt-0.5">Of dedicated clinical experience in Kunjibettu, Udupi</p>
               </div>
 
             </div>
@@ -88,11 +88,11 @@ export const About: React.FC<AboutProps> = ({ onBookClick }) => {
             </h3>
             
             <p className="text-brand-slate text-base leading-relaxed mb-4">
-              Founded on the belief that fear and discomfort should never stand between you and a radiant smile, Lumière Dental Studio blends high-end aesthetic artistry with gentle, compassionate care.
+              Founded on the principle that dental care should put your comfort, confidence and long-term oral health first, Nivora Dental Studio combines careful diagnosis with modern treatment techniques.
             </p>
 
             <p className="text-brand-slate text-base leading-relaxed mb-6">
-              Under the clinical leadership of <strong>{DOCTOR_INFO.name}</strong>, our studio uses digital 3D intraoral imaging, low-radiation diagnostics, and noise-minimizing technologies to create an atmosphere that feels more like a tranquil sanctuary than a traditional clinic.
+              Under the clinical leadership of <strong>{DOCTOR_INFO.name}</strong>, our studio provides clear communication and unhurried consultations to help you make confident decisions about your oral health.
             </p>
 
             {/* Expandable Story Detail */}

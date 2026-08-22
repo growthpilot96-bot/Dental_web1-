@@ -24,7 +24,7 @@ export const FAQ: React.FC = () => {
             Frequently Asked <span className="text-brand-teal-700 italic font-normal">Questions</span>
           </h2>
           <p className="text-base sm:text-lg text-brand-slate mt-4">
-            Everything you need to know about your consultation, treatments, and visiting our Manipal studio.
+            Everything you need to know about your consultation, treatments, and visiting our Kunjibettu, Udupi studio.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export const FAQ: React.FC = () => {
           </div>
           <div className="flex items-center space-x-3 w-full sm:w-auto">
             <a
-              href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Lumière Dental, I have a quick question regarding...")}`}
+              href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Nivora Dental Studio, I have a quick question regarding...")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 sm:flex-none inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider text-emerald-800 bg-emerald-100 hover:bg-emerald-200 transition-colors"

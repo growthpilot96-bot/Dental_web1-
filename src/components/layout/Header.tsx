@@ -49,9 +49,13 @@ export const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-medium text-brand-gold-200">Manipal's Premier Dental Studio</span>
+            <span className="font-medium text-brand-gold-200">Kunjibettu, Udupi • Dental Studio</span>
             <span className="text-white/40">|</span>
-            <span className="text-white/70">Dr. Ananya Rao (BDS, MDS)</span>
+            <span className="text-white/70">Dr. Arjun Devika (BDS, MDS)</span>
+            <span className="text-white/40">|</span>
+            <span className="px-2 py-0.5 rounded-full bg-brand-gold-500/20 text-brand-gold-300 text-[10px] font-semibold border border-brand-gold-500/30">
+              Demo Website
+            </span>
           </div>
           <div className="flex items-center space-x-6">
             <a 
@@ -62,7 +66,7 @@ export const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
               <span>{CLINIC_INFO.phone}</span>
             </a>
             <a 
-              href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Lumière Dental Studio, I would like to enquire about an appointment.")}`} 
+              href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Nivora Dental Studio, I would like to enquire about an appointment.")}`} 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center space-x-1.5 text-white/80 hover:text-white transition-colors"
@@ -90,7 +94,7 @@ export const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-brand-dark leading-none">
-                Lumière
+                Nivora
               </span>
               <span className="text-[10px] tracking-widest uppercase font-semibold text-brand-teal-700 mt-0.5">
                 Dental Studio
@@ -156,7 +160,7 @@ export const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
                     <Sparkles className="w-4 h-4 text-brand-gold-500" />
                   </div>
                   <div>
-                    <span className="font-serif text-lg font-bold text-brand-dark block leading-tight">Lumière</span>
+                    <span className="font-serif text-lg font-bold text-brand-dark block leading-tight">Nivora</span>
                     <span className="text-[9px] uppercase tracking-wider font-semibold text-brand-teal-700">Dental Studio</span>
                   </div>
                 </div>
@@ -194,7 +198,7 @@ export const Header: React.FC<HeaderProps> = ({ onBookClick }) => {
                 Book an Appointment
               </button>
               <a
-                href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Dr. Ananya, I would like to enquire about a dental appointment.")}`}
+                href={`https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Dr. Arjun, I would like to enquire about a dental appointment.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-2.5 px-4 rounded-xl text-center text-sm font-semibold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 flex items-center justify-center space-x-2 transition-colors"

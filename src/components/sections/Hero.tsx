@@ -23,14 +23,14 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
             {/* Eyebrow Label */}
             <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-brand-teal-100/70 border border-brand-teal-200/60 text-brand-teal-800 text-xs font-semibold uppercase tracking-wider w-fit mb-6 shadow-sm">
               <Sparkles className="w-3.5 h-3.5 text-brand-teal-600" />
-              <span>Modern Cosmetic & Restorative Dentistry • Manipal</span>
+              <span>Modern Dentistry • Thoughtful Care • Kunjibettu, Udupi</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-brand-dark leading-[1.15] mb-6">
-              A Healthier Smile Starts With{' '}
+              Modern Dentistry.{' '}
               <span className="relative inline-block text-brand-teal-700 italic font-normal">
-                Exceptional Care.
+                Thoughtful Care.
                 <svg className="absolute -bottom-1.5 left-0 w-full text-brand-gold-500/60" height="8" viewBox="0 0 200 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 5.5C40 2 120 1.5 199 6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
                 </svg>
@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
 
             {/* Supporting Subtext */}
             <p className="text-lg sm:text-xl text-brand-slate max-w-2xl font-normal leading-relaxed mb-8">
-              Personalised dental care designed around your comfort, confidence, and long-term oral health. Led by Dr. Ananya Rao in Manipal with a gentle, patient-first approach.
+              Dental care that puts your comfort, confidence and long-term oral health first. Led by Dr. Arjun Devika in Kunjibettu, Udupi with a gentle, patient-focused approach.
             </p>
 
             {/* Action Buttons */}
@@ -48,7 +48,7 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
                 onClick={onBookClick}
                 className="inline-flex items-center justify-center px-7 py-4 rounded-full text-base font-semibold text-white bg-brand-teal-700 hover:bg-brand-teal-800 shadow-md hover:shadow-card-hover transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-teal-600 active:scale-95 group"
               >
-                <span>Book an Appointment</span>
+                <span>Book Appointment</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
 
@@ -63,18 +63,18 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
             {/* Trust Indicators */}
             <div className="pt-6 border-t border-brand-border/80 grid grid-cols-3 gap-4 max-w-xl">
               <div>
-                <div className="font-serif text-2xl sm:text-3xl font-bold text-brand-dark">12+ Years</div>
+                <div className="font-serif text-2xl sm:text-3xl font-bold text-brand-dark">11+ Years</div>
                 <div className="text-xs font-medium text-brand-muted mt-0.5">Clinical Experience</div>
               </div>
               <div className="border-l border-brand-border/80 pl-4">
-                <div className="font-serif text-2xl sm:text-3xl font-bold text-brand-dark">5,000+</div>
-                <div className="text-xs font-medium text-brand-muted mt-0.5">Smiles Cared For</div>
+                <div className="font-serif text-2xl sm:text-3xl font-bold text-brand-dark">4,000+</div>
+                <div className="text-xs font-medium text-brand-muted mt-0.5">Patients Cared For</div>
               </div>
               <div className="border-l border-brand-border/80 pl-4">
                 <div className="font-serif text-2xl sm:text-3xl font-bold text-brand-teal-700 flex items-center">
-                  <span>99.4%</span>
+                  <span>4.9 ★</span>
                 </div>
-                <div className="text-xs font-medium text-brand-muted mt-0.5">Patient Satisfaction</div>
+                <div className="text-xs font-medium text-brand-muted mt-0.5">286+ Google Reviews</div>
               </div>
             </div>
 
@@ -91,14 +91,14 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] bg-brand-ivory">
                 <img
                   src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1000&auto=format&fit=crop"
-                  alt="Modern Dental Consultation Room at Lumière Dental Studio"
+                  alt="Modern Dental Consultation Room at Nivora Dental Studio"
                   className="w-full h-full object-cover object-center"
                   loading="eager"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/40 via-transparent to-transparent pointer-events-none" />
                 
                 <div className="absolute bottom-4 left-4 right-4 text-white text-xs bg-brand-dark/60 backdrop-blur-md rounded-xl p-3 border border-white/10 hidden sm:block">
-                  <p className="font-semibold text-white/95">State-of-the-Art Clinic in Manipal</p>
+                  <p className="font-semibold text-white/95">State-of-the-Art Clinic in Kunjibettu, Udupi</p>
                   <p className="text-white/75 text-[11px]">Equipped with low-radiation 3D imaging & calming suites.</p>
                 </div>
               </div>

@@ -42,7 +42,7 @@ export const FeaturedTreatment: React.FC<FeaturedTreatmentProps> = ({ onBookClic
               <div className="rounded-3xl overflow-hidden shadow-2xl border-2 border-brand-gold-500/30 aspect-[4/3] bg-brand-charcoal">
                 <img
                   src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=900&auto=format&fit=crop"
-                  alt="Cosmetic Dentistry and Smile Makeover at Lumière Dental Studio"
+                  alt="Cosmetic Dentistry and Smile Enhancement at Nivora Dental Studio"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

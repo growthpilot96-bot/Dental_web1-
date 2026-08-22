@@ -7,7 +7,7 @@ interface FloatingContactProps {
 }
 
 export const FloatingContact: React.FC<FloatingContactProps> = ({ onBookClick }) => {
-  const whatsAppUrl = `https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Lumière Dental Studio, I would like to book an appointment.")}`;
+  const whatsAppUrl = `https://wa.me/${CLINIC_INFO.whatsAppNumber}?text=${encodeURIComponent("Hello Nivora Dental Studio, I would like to book an appointment.")}`;
 
   return (
     <>
@@ -16,7 +16,7 @@ export const FloatingContact: React.FC<FloatingContactProps> = ({ onBookClick })
         {/* Floating Call Button */}
         <a
           href={`tel:${CLINIC_INFO.phoneRaw}`}
-          aria-label="Call Lumière Dental Studio"
+          aria-label="Call Nivora Dental Studio"
           className="w-13 h-13 p-3.5 rounded-full bg-white text-brand-dark hover:text-brand-teal-700 shadow-floating hover:shadow-2xl border border-brand-border flex items-center justify-center transition-all duration-200 hover:scale-105 group focus:outline-none focus:ring-2 focus:ring-brand-teal-600"
         >
           <Phone className="w-5 h-5 text-brand-teal-700 group-hover:scale-110 transition-transform" />
